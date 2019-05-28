@@ -7,8 +7,9 @@ import java.util.List;
  * @author sangcongcong
  * @date 2019/5/28 18:33
  *
- * 启动参数: -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
+ * VM options : -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
  *
+ * 运行结果：java.lang.OutOfMemoryError: Java heap space
  *
  *  /**
  *  @author ${USER}
