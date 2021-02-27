@@ -1,4 +1,4 @@
-package com.test.oom.demo;
+package com.test.gc.demo;
 
 /**
  * @author sangcongcong

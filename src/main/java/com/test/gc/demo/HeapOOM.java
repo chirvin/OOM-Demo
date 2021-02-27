@@ -1,4 +1,4 @@
-package com.test.oom.demo;
+package com.test.gc.demo;
 
 import java.util.ArrayList;
 import java.util.List;

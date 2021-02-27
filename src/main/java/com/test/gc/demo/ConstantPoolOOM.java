@@ -1,4 +1,4 @@
-package com.test.oom.demo;
+package com.test.gc.demo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +23,7 @@ import java.util.List;
 public class ConstantPoolOOM {
 
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<String>();
         int i = 0;
         while (true) {
             list.add(String.valueOf(i++).intern());

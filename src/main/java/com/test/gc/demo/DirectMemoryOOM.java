@@ -1,7 +1,6 @@
-package com.test.oom.demo;
+package com.test.gc.demo;
 
 import sun.misc.Unsafe;
-
 import java.lang.reflect.Field;
 
 /**
